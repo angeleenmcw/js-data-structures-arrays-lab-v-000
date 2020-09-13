@@ -21,7 +21,7 @@ function appendDriver(name) {
 }
 
 function prependDriver(name) {
-  return [name, name];
+  return [name, ...drivers];
 }
 
 function removeFirstDriver() {
