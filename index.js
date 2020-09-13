@@ -1,10 +1,10 @@
 const drivers = ['Milo', 'Otis', 'Garfield']
 
-drivers.push('Ralph')
+drivers.push()
 
-drivers.unshift('Bob')
+drivers.unshift()
 
-drivers.pop('Ralph')
+drivers.pop()
 
 drivers.shift()
 
