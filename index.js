@@ -16,17 +16,11 @@ function destructivelyRemoveFirstDriver() {
 drivers.shift();
 }
 
-const copyofdrivers = drivers.slice();
+function appendDriver(name) { 
+  return [drivers, name];
+}
 
-copyofdrivers;
-
-drivers.push('Broom');
-
-drivers.push('Anthony');
-
-copyofdrivers.pop();
-
-copyofdrivers.shift();
+function 
 
 
 
