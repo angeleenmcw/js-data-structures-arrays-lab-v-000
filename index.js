@@ -16,6 +16,10 @@ drivers.push('Broom');
 
 drivers.push('Anthony');
 
+copyofdrivers.pop();
+
+copyofdrivers.shift();
+
 
 
 
