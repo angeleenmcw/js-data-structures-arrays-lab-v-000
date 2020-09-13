@@ -12,7 +12,9 @@ function destructivelyRemoveLastDriver() {
 drivers.pop();
 }
 
+function destructivelyRemoveFirstDriver() {
 drivers.shift();
+}
 
 const copyofdrivers = drivers.slice();
 
