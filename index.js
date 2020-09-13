@@ -33,7 +33,7 @@ function removeFirstDriver() {
   return newDrivers.splice(0, 2);
 }
 
-function removeFirstDriver() {
+function removeLastDriver() {
   let newDriver = drivers.slice()
   return newDrivers.splice(1);
 }
