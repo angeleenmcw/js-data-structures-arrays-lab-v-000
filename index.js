@@ -17,7 +17,7 @@ drivers.shift();
 }
 
 function appendDriver(name) { 
-  return [drivers, name];
+  return [drivers.pop, name];
 }
 
 function prependDriver(name) {
