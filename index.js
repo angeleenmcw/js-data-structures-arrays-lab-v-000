@@ -17,13 +17,13 @@ drivers.shift();
 }
 
 function appendDriver(name) { 
-  let newdriver = [...driver, name]
-  return newdriver;
+  let newDriver = [...driver, name]
+  return newDriver;
 }
 
 function prependDriver(name) {
-  let newdriver = [name, ...drivers]
-  return newdriver;
+  let newDriver = [name, ...drivers]
+  return newDriver;
 }
 
 function removeFirstDriver() {
