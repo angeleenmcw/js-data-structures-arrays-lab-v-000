@@ -28,7 +28,9 @@ function removeFirstDriver() {
   return drivers.splice(0, 2);
 }
 
-function 
+function removeFirstDriver() {
+  return drivers.splice(1);
+}
 
 
 
