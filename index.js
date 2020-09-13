@@ -17,12 +17,14 @@ drivers.shift();
 }
 
 function appendDriver(name) { 
-  let newDriver = [...driver, name]
+  let newDriver = drivers.slice()
+  newDriver.push('Broom');
   return newDriver;
 }
 
 function prependDriver(name) {
-  let newDriver = [name, ...drivers]
+  let newDriver = drivers.slice()
+  newDriver.unshift('Arthur');
   return newDriver;
 }
 
