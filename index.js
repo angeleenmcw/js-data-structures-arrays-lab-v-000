@@ -24,7 +24,7 @@ function appendDriver(name) {
 
 function prependDriver(name) {
   let newDriver = drivers.slice()
-  newDriver.unshift('Arthur');
+  newDriver.unshift('Arnold');
   return newDriver;
 }
 
