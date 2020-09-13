@@ -17,11 +17,11 @@ drivers.shift();
 }
 
 function appendDriver(name) { 
-  return [drivers.pop, name];
+  return [...driver, name];
 }
 
 function prependDriver(name) {
-  return [drivers, name];
+  return [name, name];
 }
 
 function removeFirstDriver() {
