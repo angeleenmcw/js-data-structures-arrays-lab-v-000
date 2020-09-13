@@ -10,6 +10,8 @@ drivers.shift()
 
 const copyofdrivers = drivers.slice()
 
+copyofdrivers;
+
 drivers.push('Broom')
 
 drivers.push('Anthony')
